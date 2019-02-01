@@ -1,0 +1,69 @@
+.container-form {
+  /* height: 10em;
+    width: 25em; */
+  /* background: red; */
+  padding: 2.3em;
+  margin-top: 8em;
+  margin-bottom: 0em;
+  box-shadow: inset 0px 6px 0px #0b49f7, 0 .25em .25em rgba(0, 0, 0, .15);
+}
+
+.bg-image {
+  background-image: url("../../../assets/bubbles.png");
+  background-repeat: repeat;
+  height: 100%;
+  /* margin-top: 1em; */
+  /* background-size: 90%; */
+  /* background-size: ; */
+}
+
+.text {
+  color: #0b49f7;
+  font-weight: normal;
+}
+
+.form-control {
+  border-radius: 2em;
+  height: 3.3em;
+  margin-top: 1.5em;
+  padding-left: 2em;
+  font-weight: 100;
+  font-size: 1em;
+}
+
+.btn {
+  background: #0b49f7;
+  height: 2.3em;
+  width: 5em;
+  padding-top: 0em;
+  margin-top: 2em;
+  /* background-image: url("../../../assets/lock.png"); */
+}
+
+.lock {
+  background-repeat: no-repeat;
+  border-radius: 2em;
+}
+
+.message {
+  padding-left: .3em;
+  font-size: 1em;
+}
+
+.link-password {
+  margin-top: 1.5em;
+  font-size: .65em;
+  color: #0b49f7;
+}
+
+.info-small-text * {
+  font-size: .5em;
+  padding-top: 1em;
+  color: #0b49f7;
+}
+
+
+.input-bg {
+  box-shadow: 0 .01em .2rem rgba(0, 0, 0, .15);
+  background: rgba(252, 252, 252, 0.788);
+}

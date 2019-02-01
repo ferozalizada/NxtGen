@@ -1,0 +1,35 @@
+<!-- The main login component -->
+<div class="container-fluid bg-image">
+  <div class="row">
+    <div class="col-lg-4 col-md-7 col-sm-12 mx-auto mt-3">
+      <div class="container-login ">
+        <div class="container-login top-line bg-white">
+          <form class="container-form form-group">
+            <div class="message">
+              <h3><span class="text">Sign in</span></h3>
+              <small class="form-text text-muted">Sign into our platform below</small>
+            </div>
+            <input type="email" class="shadow-box form-control input-bg" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Email Address">
+            <div class="form-group">
+              <input type="password" class="shadow-box form-control input-bg" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="row justify-content-center align-items-center">
+              <button class=" btn btn-primary lock " (click)="submit()">
+                <span><img id="image-lock" src={{source}} alt="lock" width="20" height="20"></span>
+              </button>
+            </div>
+            <div class="row justify-content-center align-items-center">
+              <a href="# " class="text-small link-password">
+                <span>Forgot your password?</span>
+              </a>
+            </div>
+          </form>
+          <div class="info-small-text">
+            <a href="#" class="float-right">Terms of Service</a>
+            <a href="#" class="float-left">Privacry Policy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
